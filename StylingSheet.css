@@ -1,0 +1,104 @@
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+}
+
+.col {
+  flex-direction: column;
+}
+
+.col-reverse {
+    flex-direction: column-reverse;
+  }
+
+.reverse {
+  flex-direction: row-reverse;
+}
+
+.justify-start{
+    justify-content: flex-start;
+}
+
+.justify-end{
+    justify-content: end;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+
+.justify-around{
+    justify-content: space-around;
+}
+
+.justify-evenly{
+    justify-content: space-evenly;
+}
+
+.grow-tiny {
+    flex-grow: 1;
+}
+
+.grow-small {
+    flex-grow: 2;
+}
+
+.grow-default {
+    flex-grow: 3;
+}
+
+.grow-big {
+    flex-grow: 4;
+}
+
+.grow-large {
+    flex-grow: 5;
+}
+
+.grow-larger {
+    flex-grow: 6;
+}
+
+.grow-huge {
+    flex-grow: 7;
+}
+
+.flex-container div {
+  display: block;
+  border: 1px solid black;
+  padding: 10px;
+  font-size: 20px;
+}
+
+
+
+.item {
+    display: block;text-align: center;
+}
+
+.box1 {
+  background-color: red;
+}
+
+.box2 {
+  background-color: royalblue;
+}
+.box3 {
+  background-color: chartreuse;
+}
+
+.box4 {
+  background-color: orange;
+}
+
+.box5 {
+  background-color: plum;
+}
+.box6 {
+  background-color: lavender;
+}
